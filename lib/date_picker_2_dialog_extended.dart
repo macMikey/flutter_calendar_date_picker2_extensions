@@ -8,7 +8,7 @@ Future<List<DateTime?>?> calendarDatePicker2DialogExtended({
   required BuildContext context,
   required CalendarDatePicker2WithActionButtonsConfig config,
   required Size dialogSize,
-  required ValueChanged<List<DateTime?>> onValueChanged, // added parameter
+  ValueChanged<List<DateTime?>>? onValueChanged, // added parameter
   List<DateTime?> value = const [],
   BorderRadius? borderRadius,
   bool useRootNavigator = true,
